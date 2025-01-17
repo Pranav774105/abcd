@@ -14,3 +14,5 @@ def add_view(request):
             return HttpResponse('Data added Successfully......')
     context = {'form':form}
     return render(request, template_name, context)
+
+# this is a line
